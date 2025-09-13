@@ -1,3 +1,8 @@
-name,price,stock
-redmi9,9999,20
-dell,49999,30
+id,name,price,stock
+1001,redmi9,9999,30
+1002,realme,9999,30
+1003,dell,49999,47
+1004,keyboard,999,8
+1005,mouse,499,8
+1006,napkin,49,20
+1007,rolex,4999,29
