@@ -1,13 +1,14 @@
 ---------------------------BILL DETAILS---------------------------
-                                              2025-09-13 23:23:28
-Name              No.Of Items              Price(per item)  
+                                              2025-09-14 13:51:01
 
-1. Dell              1                        Rs.49999
-2. Keyboard          1                        Rs.999
-3. Mouse             1                        Rs.499
+Name                 No.Of Items              Price(per item)  
 
----------------------------------------
-Grand Total               Rs.51497
+1. Redmi9               1                        Rs.9999
+2. Dell laptop          1                        Rs.49999
+3. Rolex watch          1                        Rs.4999
+
+------------------------------------------
+Grand Total               Rs.64997
 
 Thankyou Nani😊.
 -------------------------------------------------------------------

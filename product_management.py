@@ -166,20 +166,24 @@ class product_manager:
         try:
             with open(total_sales_filepath, "r") as file:
                 reader = csv.DictReader(file)
+                total_items_saled=0
                 total_sales=0
                 id_width=10
                 name_width = 19
                 price_width = stock_width = 17
-                print(f"\n{'ID'.ljust(id_width)}{'Name'.ljust(name_width)}{'Saled'.ljust(stock_width)}\n")
+                print(f"\n{'ID'.ljust(id_width)}{'Name'.ljust(name_width)}{'Saled'.ljust(stock_width)}{'Price(per item)'.ljust(price_width)}\n")
                 for row in reader:
                     print(
                             f"{row['id'].ljust(id_width)}"
                             f"{row['name'].capitalize().ljust(name_width)}"
                             f"{row['stock'].ljust(stock_width)}"
+                            f"{row['price'].ljust(price_width)}"
                     )
+                    total_items_saled+=int(row['stock'])
                     total_sales+=int(row['price'])
                 else:
-                    print(f"\nTotal Sales : {total_sales}")
+                    print(f"\n\nTotal items sold : {total_items_saled}")                   
+                    print(f"Total Sales : {total_sales}")
         except FileNotFoundError:
             print("\nNo Sales found yet!")
         
