@@ -89,13 +89,21 @@ python main.py
 
 📂 Project Structure
 Inventory-Billing-System/
+
 │-- main.py                # Main entry point
+
 │-- product_management.py  # Handles product management
+
 │-- customer.py            # Handles customer management
+
 │-- customercart.csv       # Contains customer items
+
 │-- customerbill.txt       # Contains customer bill details
+
 │-- products.csv           # Contains all product details
+
 |-- total_sales.csv        # Contains total sales
+
 │-- README.md              # Project documentation
 
 📖 Sample Workflow
